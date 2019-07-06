@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop = "30dp"
+        android:text = "Extensive Calculator"
+        android:textSize = "30sp"
+        android:id = "@+id/judul"
+
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Square"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/judul"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:id="@+id/square"
+        android:onClick = "square"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Triangle"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/judul"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_toRightOf = "@+id/square"
+        android:id="@+id/Triangle"
+        android:onClick = "triangle"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Trapesium"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/square"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:id="@+id/trapesium"
+        android:onClick = "trapesium"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Circle"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/Triangle"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_toRightOf = "@+id/square"
+        android:id="@+id/circle"
+        android:onClick = "circle"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Parallelogramm"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/trapesium"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:id="@+id/parallelogram"
+        android:onClick = "pal"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Rectangle"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/circle"
+        android:layout_marginLeft = "50dp"
+        android:layout_marginTop = "30dp"
+        android:layout_toRightOf = "@+id/square"
+        android:id="@+id/rectangle"
+        android:onClick = "rec"
+        />
+    <Button
+        android:layout_width ="120dp"
+        android:layout_height = "100dp"
+        android:text = "Diamond"
+        android:textSize = "20sp"
+        android:layout_below = "@+id/rectangle"
+
+        android:layout_marginTop = "30dp"
+        android:id="@+id/diamond"
+        android:layout_centerHorizontal = "true"
+        android:onClick = "diamond"
+        />
+
+
+</RelativeLayout>
